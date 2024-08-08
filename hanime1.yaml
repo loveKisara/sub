@@ -1,0 +1,5 @@
+payload:
+    - 'IP-CIDR,123.88.148.0/10'
+    - 'DOMAIN,hanime1.me'
+    - 'DOMAIN,hanime1.com'
+    - 'DOMAIN,vdownload.hembed.com'
