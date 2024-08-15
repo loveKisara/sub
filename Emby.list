@@ -1,5 +1,5 @@
 # 来源： https://raw.githubusercontent.com/Repcz/Tool/X/Clash/Rules/Emby.list
-# 最后更新时间： 2024-08-15 18:57
+# 最后更新时间： 2024-08-15 19:07
 
 
 ##### A #####
@@ -114,6 +114,7 @@ DOMAIN-SUFFIX,252798.xyz
 DOMAIN-SUFFIX,cf.niceduck.lol
 DOMAIN-SUFFIX,pilicf.niceduck.lol
 DOMAIN-SUFFIX,e.niceduck.me
+DOMAIN-SUFFIX,pilicf.niceduck.me
 
 ##### I #####
 
