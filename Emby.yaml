@@ -1,6 +1,6 @@
 #规则名:Emby
 #来源:https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Clash/Emby/Emby.yaml
-#最后更新时间:2024 8.16 20:25
+#最后更新时间:2024 8.17 9:12
 payload:
   - DOMAIN,emby.enjoyit.eu.org
   - DOMAIN,emby.lcloud.wiki
@@ -68,3 +68,6 @@ payload:
   #ACA
   - DOMAIN,porn.aca.best
   - DOMAIN,emby.aca.best
+  #ApopCloud
+  - DOMAIN,sg.886318.xyz
+  - DOMAIN,emby.apopcloud.com
