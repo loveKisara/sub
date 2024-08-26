@@ -37,7 +37,7 @@ proxy-groups:
       - 🚀 节点选择
       - <countries>
       - DIRECT
-   - name: 🎯 全球直连
+  - name: 🎯 全球直连
     type: select
     proxies:
       - <countries>
