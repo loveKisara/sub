@@ -11,42 +11,42 @@ proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
-      - <countries>
+      - <all>
       - DIRECT
   - name: ☁️ Telegram
     type: select
     proxies:
       - 🚀 节点选择
-      - <countries>
+      - <all>
       - DIRECT
   - name: 🤖 AI
     type: select
     proxies:
       - 🚀 节点选择
-      - <countries>
+      - <all>
       - DIRECT
   - name: 📺 EMBY
     type: select
     proxies:
       - 🚀 节点选择
-      - <countries>
+      - <all>
       - DIRECT
   - name: 📺 BiliBili
     type: select
     proxies:
       - 🚀 节点选择
-      - <countries>
+      - <all>
       - DIRECT
   - name: 🎯 全球直连
     type: select
     proxies:
-      - <countries>
+      - <all>
       - DIRECT
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🚀 节点选择
-      - <countries>
+      - <all>
       - DIRECT
 rule-providers:
     telegram: { type: http, behavior: classical, url: 'https://raw.githubusercontent.com/yixuan66/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml', interval: 86400 }
