@@ -1,0 +1,83 @@
+#此模板为利姆鲁自用模板
+#用于https://github.com/nitezs/sub2clash项目
+mixed-port: 7890
+allow-lan: true
+mode: Rule
+log-level: debug
+external-controller: 127.0.0.1:9090
+dns: 
+    ipv6: false
+    enable: true
+proxies:
+proxy-groups:
+  - name: ❤️ 利姆鲁
+    type: select
+    proxies:
+      - <all>
+      - 🎯 全球直连
+  - name: ☁️ Telegram
+    type: select
+    proxies:
+      - ❤️ 利姆鲁
+      - <all>
+      - 🎯 全球直连
+  - name: 🤖 AI
+    type: select
+    proxies:
+      - ❤️ 利姆鲁
+      - <all>
+      - 🎯 全球直连
+  - name: 📺 EMBY
+    type: select
+    proxies:
+      - ❤️ 利姆鲁
+      - <all>
+      - 🎯 全球直连
+  - name: 📺 BiliBili
+    type: select
+    proxies:
+      - ❤️ 利姆鲁
+      - <all>
+      - 🎯 全球直连
+  - name: hanime1
+    type: select
+    proxies:
+      - ❤️ 利姆鲁
+      - <all>
+      - 🎯 全球直连
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - <all>
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - ❤️ 利姆鲁
+      - <all>
+      - 🎯 全球直连
+rule-providers:
+    telegram: { type: http, behavior: classical, url: 'https://raw.githubusercontent.com/yixuan66/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml', interval: 86400 }
+    bilibili: { type: http,behavior: classical, url: 'https://raw.githubusercontent.com/yixuan66/ios_rule_script/master/rule/Clash/BiliBili/BiliBili.yaml', interval: 86400}
+    microsoft: { type: http, behavior: classical, url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.yaml', interval: 86400}
+    google: { type: http, behavior: classical, url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.yaml', interval: 86400}
+    china: { type: http, behavior: classical, url: 'https://raw.githubusercontent.com/yixuan66/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax.yaml', interval: 86400}
+    chinaip: { type: http, behavior: ipcidr, url: 'https://raw.githubusercontent.com/yixuan66/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax_IP.yaml', interval: 86400}
+    emby: { type: http, behavior: classical, url: 'https://raw.githubusercontent.com/loveKisara/sub/main/Emby.yaml', interval: 86400}
+    AI: { type: http, behavior: classical, url: 'https://raw.githubusercontent.com/yixuan66/ios_rule_script/master/rule/Clash/OpenAI/OpenAI.yaml', interval: 86400}
+    github: { type: http, behavior: classical, url: 'https://raw.githubusercontent.com/yixuan66/ios_rule_script/master/rule/Clash/GitHub/GitHub.yaml', interval: 86400}
+    Pixiv: { type: http, behavior: classical, url: 'https://raw.githubusercontent.com/yixuan66/ios_rule_script/master/rule/Clash/Pixiv/Pixiv.yaml', interval: 86400}
+    hanime1: { type: http,behavior: classical, url: 'https://raw.githubusercontent.com/loveKisara/sub/main/hanime1.yaml', interval: 86400}
+rules:
+    - 'RULE-SET,telegram,☁️ Telegram'
+    - 'RULE-SET,bilibili,📺 BiliBili'
+    - 'RULE-SET,emby,📺 EMBY'
+    - 'RULE-SET,AI,🤖 AI'
+    - 'RULE-SET,hanime1,hanime1'
+    - 'RULE-SET,google,❤️ 利姆鲁'
+    - 'RULE-SET,microsoft,❤️ 利姆鲁'
+    - 'RULE-SET,github,❤️ 利姆鲁'
+    - 'RULE-SET,Pixiv,❤️ 利姆鲁'
+    - 'RULE-SET,china,🎯 全球直连'
+    - 'RULE-SET,chinaip,🎯 全球直连'
+    - 'MATCH,🐟 漏网之鱼'
