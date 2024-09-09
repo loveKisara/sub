@@ -61,6 +61,10 @@ payload:
   - DOMAIN,manga.pilipiliultra.com
   - DOMAIN,xn--pp5aa2sb.com
   - DOMAIN,stream_pilipili.misakaf.org
+  - DOMAIN,css.pilipili.club
+  - DOMAIN-SUFFIX,pilipili.club
+  - DOMAIN,us.pilifun.top
+  - DOMAIN,xn--ohq746dhyifsj.xn--pp5aa2sb.com
   #好鸭
   - DOMAIN,cf.niceduck.lol
   - DOMAIN,pilicf.niceduck.lol
