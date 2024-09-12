@@ -85,3 +85,8 @@ payload:
   - DOMAIN,emby.lilyya.xyz
   #纸片人
   - DOMAIN,emby4.029902.xyz
+  #fac
+  - DOMAIN,anime.fmta.boo
+  - DOMAIN,theater.fmta.boo
+  - DOMAIN,cinema.fmta.boo
+  - DOMAIN-SUFFIX,fmta.boo
