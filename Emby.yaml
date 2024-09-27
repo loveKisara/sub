@@ -75,6 +75,7 @@ payload:
   #ACA
   - DOMAIN,porn.aca.best
   - DOMAIN,emby.aca.best
+  - DOMAIN,stream4.misakaf.org
   #ApopCloud
   - DOMAIN,sg.886318.xyz
   - DOMAIN,emby.apopcloud.com
