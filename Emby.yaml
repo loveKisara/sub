@@ -66,6 +66,8 @@ payload:
   - DOMAIN,us.pilifun.top
   - DOMAIN,xn--ohq746dhyifsj.xn--pp5aa2sb.com
   - DOMAIN,pilipili.misakaf.org
+  - DOMAIN,emby-direct.pilipiliultra.com
+  - DOMAIN,emby.pilipiliultra.com
   #好鸭
   - DOMAIN,cf.niceduck.lol
   - DOMAIN,pilicf.niceduck.lol
