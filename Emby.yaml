@@ -97,3 +97,5 @@ payload:
   - DOMAIN,anime.makima.online
   - DOMAIN,restrict.makima.online
   - DOMAIN-SUFFIX,makima.online
+  #二次元
+  - DOMAIN,media.nijigem.by
