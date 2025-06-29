@@ -1,6 +1,7 @@
 payload:
-    - 'IP-CIDR,123.88.148.0/10'
+    - 'PROCESS-NAME,com.yenaly.han1meviewer'
     - 'DOMAIN,hanime1.me'
+    - 'IP-CIDR,123.88.148.0/10'
     - 'DOMAIN,hanime1.com'
     - 'DOMAIN,vdownload.hembed.com'
     - 'DOMAIN,vdownload-25.sb-cd.com'
