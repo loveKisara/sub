@@ -100,3 +100,5 @@ payload:
   - DOMAIN-SUFFIX,313445.xyz
   #二次元
   - DOMAIN,media.nijigem.by
+  #yzt
+  - DOMAIN,emby.yzt.lol
