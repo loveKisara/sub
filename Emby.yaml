@@ -89,6 +89,7 @@ payload:
   - DOMAIN,awa.811861.xyz
   #lily
   - DOMAIN,emby.lilyya.xyz
+  - DOMAIN-SUFFIX,lilyemby.my
   #纸片人
   - DOMAIN,emby4.029902.xyz
   #fac
