@@ -96,6 +96,7 @@ payload:
   #纸片人
   - DOMAIN,emby4.029902.xyz
   - DOMAIN,v2.embyplus.org
+  - DOMAIN,stream-v2.9521732.xyz
   #fac
   - DOMAIN,cinema.makima.online
   - DOMAIN,theater.makima.online
